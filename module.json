@@ -1,0 +1,872 @@
+{
+  "schema_version": "1.0",
+  "module_id": "CHANNEL",
+  "repository": "soul-channel",
+  "nature": "Optional authorization and distribution service",
+  "purpose": "Accept specific service terms and perform authorized actions",
+  "authoritative_state": "This instance's agreements/generations/channel quotas/income; does not duplicate total asset supply",
+  "semantic_units": [
+    "Channel agreements",
+    "Issuance and market composition adapters"
+  ],
+  "source_provenance": {
+    "spec": {
+      "path": "docs/SOULIDITY_ECOSYSTEM_MODULARIZATION_SPEC_CN.md",
+      "sha256": "23e089e0ea125d0d20c93d710cd826b3ff471efae61d1d4d4f892e5ff667453c"
+    },
+    "agent_fields": {
+      "path": "docs/SOULIDITY_CONTRACT_MODULES_AND_PERMISSION_BOUNDARIES_CN.md",
+      "sha256": "69562cc9099980bf56342963dc3c1c19df182ace0b530565cd9c58af19fb28c6"
+    },
+    "plan": {
+      "path": "docs/open-ecosystem/MODULE_DELIVERY_PLAN.json",
+      "sha256": "d5a29cced52ca873bfc63330f8bb1dad09c7966d8dc7c0c192ceb17d3146febb"
+    },
+    "contracts": {
+      "path": "docs/open-ecosystem/MODULE_INTEROPERABILITY_CONTRACTS.json",
+      "sha256": "4d1db51a912726e88299453115673365a13587f823e3d6387a5d460dd63952fc"
+    },
+    "scope": {
+      "path": "docs/open-ecosystem/ORIGINAL_SCOPE_TRACE.json",
+      "sha256": "f60284b600712201b972a23a6582ddd2e01c127d8759e5dc8d51d4c473c42110"
+    },
+    "registry": {
+      "path": "agent-management/workspace.json",
+      "sha256": "bf54424842188fd92569c06c88bb2e507f5d46ef00b5b73a19ee6ac60bdb6efd"
+    },
+    "operating_model": {
+      "path": "agent-management/OPERATING_MODEL.md",
+      "sha256": "183dd9414229552d5be72e8077503109b48edb6008d6661eaf336c9475a4af43"
+    },
+    "handbook": {
+      "path": "agent-management/PRODUCT_ENGINEERING_HANDBOOK_CN.md",
+      "sha256": "1972858dffa38006f1d3784bcaca9370c52bdebade730b20bb0294b42125ec95"
+    }
+  },
+  "artifact_state": {
+    "repository_creation": "local_git_created; no remote or commit",
+    "source_migration": "no current Channel production implementation; agreement/rules/quota/income remain required",
+    "build": "not_run",
+    "runtime_acceptance": "not_run",
+    "independent_deployment": "not_verified",
+    "remote_ci_execution": "not_run"
+  },
+  "management": {
+    "functions": [
+      "planning",
+      "organizing",
+      "leading",
+      "controlling"
+    ],
+    "capabilities": [
+      "module_contract_validation",
+      "existing_record_reference",
+      "evidence_attachment"
+    ],
+    "role_recommendation": "CIPHER",
+    "no_competing_board": true,
+    "preserve_active_owners": true,
+    "original_record_registry": {
+      "Delivery": {
+        "list_id": "F0C6BEMB58V",
+        "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V",
+        "records": [
+          {
+            "id": "PLAN-001",
+            "record_id": "Rec0C61CLJJKH",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C61CLJJKH"
+          },
+          {
+            "id": "PLAN-002",
+            "record_id": "Rec0C6EQZ0WKG",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6EQZ0WKG"
+          },
+          {
+            "id": "PLAN-003",
+            "record_id": "Rec0C6LE68ZMJ",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6LE68ZMJ"
+          },
+          {
+            "id": "PLAN-004",
+            "record_id": "Rec0C61CLNLF9",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C61CLNLF9"
+          },
+          {
+            "id": "PLAN-005",
+            "record_id": "Rec0C6JMY2M97",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6JMY2M97"
+          },
+          {
+            "id": "PLAN-006A",
+            "record_id": "Rec0C6AH2BETD",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6AH2BETD"
+          },
+          {
+            "id": "PLAN-006B",
+            "record_id": "Rec0C6LEA9Q5S",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6LEA9Q5S"
+          },
+          {
+            "id": "PLAN-007",
+            "record_id": "Rec0C7B53AP6C",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C7B53AP6C"
+          },
+          {
+            "id": "PLAN-008",
+            "record_id": "Rec0C6AH2EAUB",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6AH2EAUB"
+          },
+          {
+            "id": "TRACK-009",
+            "record_id": "Rec0C6AH2F6CT",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6AH2F6CT"
+          },
+          {
+            "id": "TRACK-010",
+            "record_id": "Rec0C7B53DT1N",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C7B53DT1N"
+          },
+          {
+            "id": "PROD-011",
+            "record_id": "Rec0C6GK733EE",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6GK733EE"
+          },
+          {
+            "id": "PROD-012",
+            "record_id": "Rec0C6JMY9YE5",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6JMY9YE5"
+          },
+          {
+            "id": "PROD-013",
+            "record_id": "Rec0C6LEAEWAY",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6LEAEWAY"
+          },
+          {
+            "id": "PROD-014",
+            "record_id": "Rec0C6EQZD07Q",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6EQZD07Q"
+          },
+          {
+            "id": "PROD-015",
+            "record_id": "Rec0C6LEAHCS0",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6LEAHCS0"
+          },
+          {
+            "id": "PILOT-016",
+            "record_id": "Rec0C6BF1CKV3",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6BF1CKV3"
+          },
+          {
+            "id": "QA-017",
+            "record_id": "Rec0C6GKR7AMQ",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6GKR7AMQ"
+          },
+          {
+            "id": "OPS-018",
+            "record_id": "Rec0C6ERHG5RC",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C6ERHG5RC"
+          },
+          {
+            "id": "OPS-019",
+            "record_id": "Rec0C7B5MN36C",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6BEMB58V?record_id=Rec0C7B5MN36C"
+          }
+        ]
+      },
+      "DEV": {
+        "list_id": "F0C6DCP5VFH",
+        "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6DCP5VFH",
+        "records": [
+          {
+            "id": "DEV-001",
+            "record_id": "Rec0C6DECEP8F",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6DCP5VFH?record_id=Rec0C6DECEP8F"
+          },
+          {
+            "id": "DEV-002",
+            "record_id": "Rec0C6ULYUDLJ",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6DCP5VFH?record_id=Rec0C6ULYUDLJ"
+          },
+          {
+            "id": "DEV-003",
+            "record_id": "Rec0C6NJV83BM",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6DCP5VFH?record_id=Rec0C6NJV83BM"
+          },
+          {
+            "id": "DEV-004",
+            "record_id": "Rec0C6ULZ59J6",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6DCP5VFH?record_id=Rec0C6ULZ59J6"
+          },
+          {
+            "id": "DEV-005",
+            "record_id": "Rec0C6PGLAUP7",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6DCP5VFH?record_id=Rec0C6PGLAUP7"
+          },
+          {
+            "id": "DEV-006",
+            "record_id": "Rec0C6DED6M63",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6DCP5VFH?record_id=Rec0C6DED6M63"
+          },
+          {
+            "id": "DEV-007",
+            "record_id": "Rec0C6SSSPDML",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6DCP5VFH?record_id=Rec0C6SSSPDML"
+          },
+          {
+            "id": "DEV-008",
+            "record_id": "Rec0C7P71G6HW",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6DCP5VFH?record_id=Rec0C7P71G6HW"
+          }
+        ]
+      },
+      "BUG": {
+        "list_id": "F0C6UK635UJ",
+        "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ",
+        "records": [
+          {
+            "id": "BUG-001",
+            "record_id": "Rec0C6YFWJTFW",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6YFWJTFW"
+          },
+          {
+            "id": "BUG-002",
+            "record_id": "Rec0C6DE31DC7",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6DE31DC7"
+          },
+          {
+            "id": "BUG-003",
+            "record_id": "Rec0C6SSGKYF8",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6SSGKYF8"
+          },
+          {
+            "id": "BUG-004",
+            "record_id": "Rec0C6SSGT7PY",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6SSGT7PY"
+          },
+          {
+            "id": "BUG-005",
+            "record_id": "Rec0C6DE3D15M",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6DE3D15M"
+          },
+          {
+            "id": "BUG-006",
+            "record_id": "Rec0C6YFYRPCL",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6YFYRPCL"
+          },
+          {
+            "id": "BUG-007",
+            "record_id": "Rec0C6DE40N15",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6DE40N15"
+          },
+          {
+            "id": "BUG-008",
+            "record_id": "Rec0C7P6RPA3A",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C7P6RPA3A"
+          },
+          {
+            "id": "BUG-009",
+            "record_id": "Rec0C7P6RMAF2",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C7P6RMAF2"
+          },
+          {
+            "id": "BUG-010",
+            "record_id": "Rec0C6YFYTYAY",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6YFYTYAY"
+          },
+          {
+            "id": "BUG-011",
+            "record_id": "Rec0C6WPEM5BK",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6WPEM5BK"
+          },
+          {
+            "id": "BUG-012",
+            "record_id": "Rec0C6PGBL5RT",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6PGBL5RT"
+          },
+          {
+            "id": "BUG-013",
+            "record_id": "Rec0C6W27PZGA",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6W27PZGA"
+          },
+          {
+            "id": "BUG-014",
+            "record_id": "Rec0C6U8178S2",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6U8178S2"
+          },
+          {
+            "id": "BUG-015",
+            "record_id": "Rec0C6ZSXDQJY",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6ZSXDQJY"
+          },
+          {
+            "id": "BUG-016",
+            "record_id": "Rec0C6Q04P7EF",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6Q04P7EF"
+          },
+          {
+            "id": "BUG-017",
+            "record_id": "Rec0C6U81J5V4",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6U81J5V4"
+          },
+          {
+            "id": "BUG-018",
+            "record_id": "Rec0C6W21HRFC",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6W21HRFC"
+          },
+          {
+            "id": "BUG-019",
+            "record_id": "Rec0C6U81TB0W",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6U81TB0W"
+          },
+          {
+            "id": "BUG-020",
+            "record_id": "Rec0C6Y4Z2RS5",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6Y4Z2RS5"
+          },
+          {
+            "id": "BUG-021",
+            "record_id": "Rec0C6Y4Z9FUZ",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6Y4Z9FUZ"
+          },
+          {
+            "id": "BUG-022",
+            "record_id": "Rec0C6U825WT0",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6U825WT0"
+          },
+          {
+            "id": "BUG-023",
+            "record_id": "Rec0C6ER2QNLF",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6ER2QNLF"
+          },
+          {
+            "id": "BUG-024",
+            "record_id": "Rec0C6U8249HU",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6U8249HU"
+          },
+          {
+            "id": "BUG-025",
+            "record_id": "Rec0C6W29BUSW",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6W29BUSW"
+          },
+          {
+            "id": "BUG-026",
+            "record_id": "Rec0C6Q064VH9",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6Q064VH9"
+          },
+          {
+            "id": "BUG-027",
+            "record_id": "Rec0C6U82MBHC",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6U82MBHC"
+          },
+          {
+            "id": "BUG-028",
+            "record_id": "Rec0C6Q0629JP",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6Q0629JP"
+          },
+          {
+            "id": "BUG-029",
+            "record_id": "Rec0C6QTB145T",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6QTB145T"
+          },
+          {
+            "id": "BUG-030",
+            "record_id": "Rec0C6Q0679GT",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6Q0679GT"
+          },
+          {
+            "id": "BUG-031",
+            "record_id": "Rec0C6Y50B5TK",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6Y50B5TK"
+          },
+          {
+            "id": "BUG-032",
+            "record_id": "Rec0C6Y50P80H",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6Y50P80H"
+          },
+          {
+            "id": "BUG-033",
+            "record_id": "Rec0C6Q06LF35",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6Q06LF35"
+          },
+          {
+            "id": "BUG-034",
+            "record_id": "Rec0C6Q06NATD",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6Q06NATD"
+          },
+          {
+            "id": "BUG-035",
+            "record_id": "Rec0C6U840CUW",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6U840CUW"
+          },
+          {
+            "id": "BUG-036",
+            "record_id": "Rec0C6QTBFE77",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6QTBFE77"
+          },
+          {
+            "id": "BUG-037",
+            "record_id": "Rec0C6ER4G27R",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6ER4G27R"
+          },
+          {
+            "id": "BUG-038",
+            "record_id": "Rec0C6ZT018AG",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6ZT018AG"
+          },
+          {
+            "id": "BUG-039",
+            "record_id": "Rec0C6Y515QL9",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6Y515QL9"
+          },
+          {
+            "id": "BUG-040",
+            "record_id": "Rec0C6QRXT03D",
+            "url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6UK635UJ?record_id=Rec0C6QRXT03D"
+          }
+        ]
+      }
+    },
+    "original_scope_references": [
+      {
+        "id": "DOF.agile.DOF-008",
+        "original_id": "DOF-008",
+        "record_id": "Rec0C7CPSRU8N",
+        "original_table": "agile",
+        "original_list_id": "F0C7JBQ5JF6",
+        "original_list_url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C7JBQ5JF6",
+        "owner_ref": "Codex execution/integration in this task; domain responsibilities: CIPHER + FLUX (role allocation, not evidence that independent sessions have started)",
+        "reviewer_ref": "SENTINEL responsibilities/independent review pending; existing product acceptance responsibilities retained",
+        "linked_original_records_historical": "Original M1–M4, S0–S14, DEV-002; references BUG005/006/044. The new table does not change original completion status."
+      },
+      {
+        "id": "DOF.journeys.J27",
+        "original_id": "J27",
+        "record_id": "Rec0C79GLN30D",
+        "original_table": "journeys",
+        "original_list_id": "F0C7JCB5AQ4",
+        "original_list_url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C7JCB5AQ4",
+        "owner_ref": "Follow the owner of the linked original engineering record",
+        "reviewer_ref": "Retain existing product/SENTINEL acceptance responsibilities; independent acceptance has not been performed",
+        "linked_original_records_historical": null
+      },
+      {
+        "id": "DOF.journeys.J31",
+        "original_id": "J31",
+        "record_id": "Rec0C7CSLG45U",
+        "original_table": "journeys",
+        "original_list_id": "F0C7JCB5AQ4",
+        "original_list_url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C7JCB5AQ4",
+        "owner_ref": "Follow the owner of the linked original engineering record",
+        "reviewer_ref": "Retain existing product/SENTINEL acceptance responsibilities; independent acceptance has not been performed",
+        "linked_original_records_historical": null
+      },
+      {
+        "id": "DOF.contracts.C09",
+        "original_id": "C09",
+        "record_id": "Rec0C7CURDE5C",
+        "original_table": "contracts",
+        "original_list_id": "F0C6ZG8FKC7",
+        "original_list_url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6ZG8FKC7",
+        "owner_ref": "Codex/integration for this reconstruction; existing domain roles retained, not evidence that new accounts have been created",
+        "reviewer_ref": "Existing product Owner + SENTINEL; high-risk work additionally requires a competent reviewer other than the implementer, not yet performed",
+        "linked_original_records_historical": null
+      },
+      {
+        "id": "DOF.contracts.C12",
+        "original_id": "C12",
+        "record_id": "Rec0C79JS8BRB",
+        "original_table": "contracts",
+        "original_list_id": "F0C6ZG8FKC7",
+        "original_list_url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C6ZG8FKC7",
+        "owner_ref": "Codex/integration for this reconstruction; existing domain roles retained, not evidence that new accounts have been created",
+        "reviewer_ref": "Existing product Owner + SENTINEL; high-risk work additionally requires a competent reviewer other than the implementer, not yet performed",
+        "linked_original_records_historical": null
+      },
+      {
+        "id": "DOF.milestones.R5",
+        "original_id": "R5",
+        "record_id": "Rec0C8997DPU0",
+        "original_table": "milestones",
+        "original_list_id": "F0C7JJ7BAMA",
+        "original_list_url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C7JJ7BAMA",
+        "owner_ref": "Codex/integration for this reconstruction; existing domain roles retained, not evidence that new accounts have been created",
+        "reviewer_ref": "Existing product Owner + SENTINEL; high-risk work additionally requires a competent reviewer other than the implementer, not yet performed",
+        "linked_original_records_historical": null
+      },
+      {
+        "id": "DOF.decisions.A04",
+        "original_id": "A04",
+        "record_id": "Rec0C79JY519B",
+        "original_table": "decisions",
+        "original_list_id": "F0C8991KJQ0",
+        "original_list_url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C8991KJQ0",
+        "owner_ref": "Codex/integration for this reconstruction; existing domain roles retained, not evidence that new accounts have been created",
+        "reviewer_ref": "Existing product Owner + SENTINEL; high-risk work additionally requires a competent reviewer other than the implementer, not yet performed",
+        "linked_original_records_historical": null
+      },
+      {
+        "id": "DOF.economics.E05",
+        "original_id": "E05",
+        "record_id": "Rec0C6ZGFBB0X",
+        "original_table": "economics",
+        "original_list_id": "F0C7GRQQFEV",
+        "original_list_url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C7GRQQFEV",
+        "owner_ref": "Codex/integration for this reconstruction; existing domain roles retained, not evidence that new accounts have been created",
+        "reviewer_ref": "Existing product Owner + SENTINEL; high-risk work additionally requires a competent reviewer other than the implementer, not yet performed",
+        "linked_original_records_historical": null
+      },
+      {
+        "id": "DOF.economics.E06",
+        "original_id": "E06",
+        "record_id": "Rec0C78M5C6E7",
+        "original_table": "economics",
+        "original_list_id": "F0C7GRQQFEV",
+        "original_list_url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C7GRQQFEV",
+        "owner_ref": "Codex/integration for this reconstruction; existing domain roles retained, not evidence that new accounts have been created",
+        "reviewer_ref": "Existing product Owner + SENTINEL; high-risk work additionally requires a competent reviewer other than the implementer, not yet performed",
+        "linked_original_records_historical": null
+      }
+    ],
+    "current_record_ref": null,
+    "responsibility_mappings": {
+      "maintenance": {
+        "status": "pending",
+        "actual_identity": null,
+        "evidence": [],
+        "role_recommendation": "CIPHER",
+        "original_owner_rule": "Follow the original record Owner; recommended roles do not replace the active Owner"
+      },
+      "independent_acceptance": {
+        "status": "pending",
+        "actual_identity": null,
+        "evidence": [],
+        "role_recommendation": "Actual independent acceptor; SENTINEL reviews quality, and funds/permissions require appropriate qualifications",
+        "qualification_evidence": [],
+        "independence_evidence": [],
+        "original_owner_rule": "Follow the original record acceptance responsibility; high-risk work is reviewed by a qualified, actual independent acceptor"
+      }
+    }
+  },
+  "write_boundary": {
+    "repository_only": true,
+    "writable_paths": [
+      "**"
+    ],
+    "owned_semantic_units": [
+      "Channel agreements",
+      "Issuance and market composition adapters"
+    ],
+    "cross_repository_edits": "forbidden",
+    "source_authority_switch": "pending_single_writer_cutover",
+    "external_shared_resources": "exclusive_holder_required; worktree does not isolate wallet/deployment/state",
+    "non_writable_paths": [
+      ".deps/**",
+      "candidate-dependencies/**",
+      "evidence/extraction-original/**"
+    ]
+  },
+  "engineering_capabilities": {
+    "provided_interfaces_design": [
+      "F09",
+      "F16",
+      "F11"
+    ],
+    "selected_dependencies_design": [
+      {
+        "provider": "MAKER",
+        "interfaces": [
+          "F05",
+          "F06",
+          "F11"
+        ],
+        "condition": "Maker channel adapters only; agreement core is not bound to one producer"
+      },
+      {
+        "provider": "STANDARD",
+        "interfaces": [
+          "F01"
+        ],
+        "condition": "Selected asset identity adapters only"
+      }
+    ],
+    "prohibited_dependencies": [
+      "mandatory MARKET"
+    ],
+    "runtime_capabilities_verified": [],
+    "management_role_grants_runtime_authority": false,
+    "upgrade_authority_grants_runtime_authority": false
+  },
+  "engineering_permissions": [
+    {
+      "category": "source_maintenance",
+      "applicability": "pending",
+      "reason": null,
+      "effective_authority_paths": [],
+      "actual_holder": null,
+      "authorization_ref": null,
+      "evidence": []
+    },
+    {
+      "category": "version_release",
+      "applicability": "pending",
+      "reason": null,
+      "effective_authority_paths": [],
+      "actual_holder": null,
+      "authorization_ref": null,
+      "evidence": []
+    },
+    {
+      "category": "production_deployment",
+      "applicability": "pending",
+      "reason": null,
+      "effective_authority_paths": [],
+      "actual_holder": null,
+      "authorization_ref": null,
+      "evidence": []
+    },
+    {
+      "category": "onchain_control",
+      "applicability": "pending",
+      "reason": null,
+      "effective_authority_paths": [],
+      "actual_holder": null,
+      "authorization_ref": null,
+      "evidence": []
+    }
+  ],
+  "agent_contract": {
+    "identity": {
+      "module": "CHANNEL",
+      "role_recommendation": "CIPHER",
+      "actual_identity": null,
+      "status": "pending"
+    },
+    "responsibilities": "Accept specific service terms and perform authorized actions",
+    "write_scope": {
+      "repository": "soul-channel",
+      "paths": [
+        "**"
+      ],
+      "cross_repository": "forbidden",
+      "read_only_dependency_paths": [
+        ".deps/**",
+        "candidate-dependencies/**"
+      ]
+    },
+    "inputs_outputs": {
+      "inputs": [
+        "fixed_candidate",
+        "original_record",
+        "declared_dependencies"
+      ],
+      "outputs": [
+        "module_artifact",
+        "verification_evidence",
+        "original_record_attachment"
+      ]
+    },
+    "tool_identity": {
+      "status": "pending",
+      "actual_accounts": [],
+      "runtime_session": null
+    },
+    "permissions": {
+      "source": "bounded_current_task_only",
+      "publish_deploy_sign_spend_external_message": "requires_existing_explicit_authorization",
+      "authority": "This instance's configuration, funds, necessary pause, and actual package upgrades; no authority over all assets"
+    },
+    "budget": {
+      "status": "pending",
+      "amount": null,
+      "currency": null,
+      "duration": null,
+      "authorization_ref": null
+    },
+    "acceptor": {
+      "status": "pending",
+      "actual_identity": null,
+      "evidence": [],
+      "role_recommendation": "Actual independent acceptor; SENTINEL reviews quality, and funds/permissions require appropriate qualifications",
+      "qualification_evidence": [],
+      "independence_evidence": [],
+      "original_owner_rule": "Follow the original record acceptance responsibility; high-risk work is reviewed by a qualified, actual independent acceptor"
+    },
+    "handoff_location": {
+      "original_record_ref": null,
+      "repository_path": "evidence/handoffs/",
+      "status": "pending"
+    },
+    "stop_method": {
+      "method": "stop bounded executor, release exclusive resources, preserve original intent/effects, attach handoff to original record",
+      "unattended_runtime": "not_configured"
+    }
+  },
+  "delivery_attachment": {
+    "original_record_ref": null,
+    "stage": "Plan",
+    "status": "in_progress",
+    "evidence": [],
+    "remaining_exit_criteria": [
+      "Current source/packages/permissions/dependencies and acceptance are governed by actual repository evidence",
+      "Continue verifying original complete journeys and Release/Deploy/Adopted against the original records"
+    ],
+    "stage_exit_criteria": [
+      {
+        "stage": "Plan",
+        "status": "not_verified",
+        "evidence": [],
+        "exit_criteria": "The original record clearly identifies the user outcome, sole Owner, actual acceptor, normal/failure/recovery behavior, and Ready criteria"
+      },
+      {
+        "stage": "Code",
+        "status": "not_verified",
+        "evidence": [],
+        "exit_criteria": "Exact changes, independent review, and relevant regressions; Implemented does not mean Released"
+      },
+      {
+        "stage": "Build",
+        "status": "not_verified",
+        "evidence": [],
+        "exit_criteria": "Pin tools/dependencies/configuration and source/artifact digests; explain N/A when no build is required"
+      },
+      {
+        "stage": "Test",
+        "status": "not_verified",
+        "evidence": [],
+        "exit_criteria": "Identify the exact combination, normal/error/recovery behavior, applicable security counterexamples, untested items, and original journey results"
+      },
+      {
+        "stage": "Release",
+        "status": "not_verified",
+        "evidence": [],
+        "exit_criteria": "Applicable G3, sole manifest, independent acceptance, release responsibility, original authorization, and recovery boundaries"
+      },
+      {
+        "stage": "Deploy",
+        "status": "not_verified",
+        "evidence": [],
+        "exit_criteria": "Exact target and G4 readback for the same candidate; original live operations awaiting acceptance must not be marked complete"
+      },
+      {
+        "stage": "Operate",
+        "status": "not_verified",
+        "evidence": [],
+        "exit_criteria": "Actual operational responsibility, applicable G5, recovery/reconciliation; query the original result first for successful transactions"
+      },
+      {
+        "stage": "Monitor",
+        "status": "not_verified",
+        "evidence": [],
+        "exit_criteria": "Observation window/source/threshold rationale and findings linked to original DEV/BUG records; identify unknowns"
+      }
+    ],
+    "handbook": {
+      "version": "1.0",
+      "date": "2026-10-06",
+      "applicable_sections": [
+        "1–4",
+        "5",
+        "9",
+        "12"
+      ],
+      "conditional_sections": [
+        "6: funds",
+        "7: contracts",
+        "8.3–8.4: Sui/upgrades",
+        "10: operations"
+      ],
+      "evidence": [],
+      "remaining_checks": [
+        "Add applicability and actual evidence to the original record"
+      ],
+      "review_template_ref": "agent-management/templates/product-engineering-review.md"
+    }
+  },
+  "compatibility": {
+    "consumer_declaration_fields": [
+      "provider_and_exact_interface",
+      "used_actions_and_types",
+      "supported_schema_and_behavior",
+      "required_effects",
+      "authority_and_state_inputs",
+      "failure_exit_and_recovery",
+      "version_combination_and_artifacts",
+      "verification_and_migration_evidence"
+    ],
+    "consumers": [],
+    "dependency_fields": [
+      "consumer",
+      "provider",
+      "kind",
+      "used_actions_types_state",
+      "selection_condition",
+      "exact_version_range",
+      "change_validation",
+      "exit_or_migration"
+    ],
+    "dependency_kinds": [
+      "compile",
+      "runtime",
+      "behavior",
+      "authority",
+      "funds",
+      "state",
+      "content"
+    ],
+    "dependencies": [],
+    "change_dimensions": [
+      "type_format_abi",
+      "behavior",
+      "authority_funds",
+      "migration_legacy_entries"
+    ],
+    "required_combinations": [
+      "baseline/current",
+      "candidate/current",
+      "candidate/candidate"
+    ],
+    "reverse_combination_when_consumed": true,
+    "verification_evidence": [],
+    "unrelated_consumer_forced_releases_target": 0,
+    "consumer_freeze_fields": [
+      "source",
+      "dependency_lock",
+      "configuration",
+      "artifact"
+    ]
+  },
+  "release_units": [],
+  "production_targets": [],
+  "ci": {
+    "scope": "maintenance_contract_only",
+    "product_commands": [],
+    "product_verification": "not_run",
+    "local_command": [
+      "python3",
+      "scripts/ci.py"
+    ]
+  },
+  "pipelines": [
+    {
+      "kind": "ci",
+      "configuration": "template",
+      "remote_execution": "not_run"
+    },
+    {
+      "kind": "version_release",
+      "configuration": "readiness_gate_template",
+      "remote_execution": "not_run"
+    }
+  ],
+  "release_readiness": {
+    "status": "pending",
+    "candidate_identity": null,
+    "original_record_ref": null,
+    "build_evidence": [],
+    "test_evidence": [],
+    "combination_evidence": [],
+    "independent_acceptance_evidence": [],
+    "authorization_ref": null,
+    "recovery_evidence": []
+  }
+}
