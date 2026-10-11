@@ -44,12 +44,21 @@
     }
   },
   "artifact_state": {
-    "repository_creation": "local_git_created; no remote or commit",
+    "repository_creation": "public_remote_created; source_checkpoint_pushed_and_verified",
     "source_migration": "no current Channel production implementation; agreement/rules/quota/income remain required",
     "build": "not_run",
     "runtime_acceptance": "not_run",
     "independent_deployment": "not_verified",
-    "remote_ci_execution": "not_run"
+    "remote_ci_execution": "not_run",
+    "remote_backup": {
+      "url": "https://github.com/redefine-digital-labs/soul-channel",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "verified_source_commit": "db2b2172dded0565fb89cf842885f6e5751dbdfc",
+      "source_checkpoint_verified": true,
+      "actions_enabled": false,
+      "scope": "Source backup; independent product/release/runtime status remains as separately recorded"
+    }
   },
   "management": {
     "functions": [
