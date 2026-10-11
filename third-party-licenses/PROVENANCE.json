@@ -1,0 +1,30 @@
+[
+  {
+    "dependency": "MystenLabs/sui",
+    "revision": "2a0becb2fcc6989e492981104af67f62f2c9511a",
+    "url": "https://github.com/MystenLabs/sui/blob/2a0becb2fcc6989e492981104af67f62f2c9511a/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "file": "sui-LICENSE"
+  },
+  {
+    "dependency": "MystenLabs/apps",
+    "revision": "7a07937149c0af057be8f6747e60d0f1acd88fde",
+    "url": "https://github.com/MystenLabs/apps/blob/7a07937149c0af057be8f6747e60d0f1acd88fde/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "file": "apps-LICENSE"
+  },
+  {
+    "dependency": "circlefin/stablecoin-sui",
+    "revision": "d0904aec1bbe46b38f811654070032363a5a2966",
+    "url": "https://github.com/circlefin/stablecoin-sui/blob/d0904aec1bbe46b38f811654070032363a5a2966/LICENSE",
+    "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "file": "stablecoin-sui-LICENSE"
+  },
+  {
+    "dependency": "MystenLabs/walrus",
+    "revision": "a19764ff77f501a79db88dc6d922a2c73848e989",
+    "url": "https://github.com/MystenLabs/walrus/blob/a19764ff77f501a79db88dc6d922a2c73848e989/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "file": "walrus-LICENSE"
+  }
+]
